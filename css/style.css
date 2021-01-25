@@ -1,0 +1,18 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+/* Navigation Bar */
+.navBar {
+   display: inline-block;
+   vertical-align: top;
+
+}
+.navigation a{
+    float: right;
+    
+}
+/* Hero Space*/
+.hello {
+   text-align: left; 
+
+}
