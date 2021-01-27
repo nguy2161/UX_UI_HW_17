@@ -1,71 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    a { text-decoration: none; }
+  </style>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <title>Portfolio Homepage</title>
     </head>
 <body>
            <!-- Navigation Bar -->
-  <nav id="navBar">
-      <div class="logo">
-        <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/n..png" alt="logo">
-      </div>
-      <div class="navigation">
-       <a href="#Work">Work</a>
-       <a href="#About">About</a>
-       <a href="#Resume">Resume</a>
-       <a href="#Contact">Contact</a>
-    </div>
-  </nav>
-             <!-- Hero Space -->
-
-  <section id="heroGrid">
-    <div id="introText" class="heroGrid">
-        <div id="headline">
-            <h1 id="Hello!">Hello there! I'm Nhi Nguyen.</h1>
-            <p1>I am a multi-disciplinary designer based in Minneapolis with a passion for visual, UI and Ux designs. I enjoy using my skills to create solutions to help design better user experiances.</p1>
+  <header>
+    <img class= "logo" src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/n..png" alt="logo">
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+             <!-- Hero Banner -->
+  <div class="Banner">
+    <div class="left-side">
+            <h1>Hello there!<br>
+               I'm Nhi Nguyen.</h1>
+            <p> I am a multi-disciplinary designer based in Minneapolis<br>
+                with a passion for visual, UI and Ux designs. I enjoy<br>
+                using my skills to create solutions to help design better<br>
+                user experiances.</p>
         </div>
-    </div>  
-  </section>
+    </div>      
+   
                <!-- Portfolio -->
-  <section id="portfolio">
-      <div id="Community Pathways" class="portfolio">
-          <div class="headline">
-          <h2 id="Community Pathways">Community Pathways</h2>
-          <p2>An app that provides information and guidelines to make the recycling experience less confusing and more enjoyable.
-        </p2>
-          <div class="button">
-            <button>Read More</button>
-            <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Arrow.png">
-          </div>
+<div class="portfolio">
+      <div class="CommunityPathways">
+        <div class="CommunityPathways_Image">
+          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Com.Path. desktop.png">
+        </div>
+        <div class="CommunityPathways_Text">
+          <h2>Community Pathways <br>
+            Website Redesign</h2>
+          <p>A non-profit responsive website redesign that provides a <br>
+              better newsletter sign up experiance for customers
+          </p>
+        </div>
+        <div class="Read_more">
+          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Read More.png" alt="CP-mockup">
+        </div>
       </div>
-      <div id="Community Pathways" class="portfolio">
-        <div class="headline">
-        <h2 id="RecyleAid">RecyleAid</h2>
-        <p2>A non-profit responsive website redesign that provides a better newsletter sign up experiance for customers</p2>
-        <div class="button">
-          <button>Read More</button>
-          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Arrow.png">
+
+      <div class="RecyleAid">
+        <div class="RecyleAid_Image">
+          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Recyle aid screen.png">
         </div>
-    </div>
-    <div id="USDA" class="portfolio">
-        <div class="headline">
-        <h2 id="USDA">USDA</h2>
-        <p2>Redesign the United States Department of Agriculture website in order to create a smoother user experience.
-        </p2>
-        <div class="button">
-          <button>Read More</button>
-          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Arrow.png">
+        <div class="RecyleAid_Text">
+          <h2>RecyleAid</h2>
+          <p>An app that provides information and guidelines <br>
+            to make the recycling experience less confusing and <br>
+            more enjoyable.
+          </p>
         </div>
-</section>
-               <!-- Footer -->
-    <div id="footer">
+        <div class="Read_more">
+          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Read More.png" alt="CP-mockup">
+        </div>
+      </div>
+
+      <div class="USDA">
+        <div class="USDA_Image">
+          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/USDA Desktop .png">
+        </div>
+        <div class="USDA_Text">
+          <h2>USDA Website Redesign</h2>
+          <p>Redesigning the United States Department of Agriculture <br>
+            website in order to create a smoother user experience.
+          </p>
+        </div>
+        <div class="Read_more">
+          <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Read More.png" alt="CP-mockup">
+        </div>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+</div>
+
+          
+            
+        
+
+      
+              <!-- Portfolio -->
+    <hr>       
+    <div class="footer">
+      <div class="footer-left">
         <h4>NHI NGUYEN</h4>
-        <P2>UI / Ux / Visual Design</P2>
-        <div id="links" class="footer">
-            <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Component 3 – 1.png" alt="LinkedIn">
-            <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Component 4 – 1.png" alt="Email">
-        </div>
+        <P>UI / UX / Visual Design</P2>
+      </div>
+      <div class="footer-right">
+        <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/LinkedIn.png" alt="LinkedIn">
+        <img src="/Users/NhiNguyen/Desktop/Portfolio Codes/UX_UI_HW_17/Images/Email.png" alt="Email">
+      </div>
     </div>
 </body>
 </html>
